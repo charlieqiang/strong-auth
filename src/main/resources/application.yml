@@ -1,0 +1,15 @@
+server:
+  port: 8001
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.108.122.79:3306/strong_auth?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: CDEcde888
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    cache-enabled: false
+    local-cache-scope: statement
